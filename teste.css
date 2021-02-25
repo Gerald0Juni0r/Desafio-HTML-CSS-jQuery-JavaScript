@@ -1,0 +1,25 @@
+
+body {
+    background-color: rgb(3, 3, 3);    
+    font-family: 'Montserrat', sans-serif;
+}
+
+body > div {
+    margin:250px auto 250px auto;
+   
+}
+
+#endereco{
+    color:rgb(245, 248, 244)
+}
+
+button{
+    filter: drop-shadow(0px 0px 16px #aaa);
+    margin-top: 60px;
+    margin-left: 150px;
+}
+
+body>div>input{
+    margin: 5px auto 5px auto;
+    filter: drop-shadow(0px 0px 16px);
+}
