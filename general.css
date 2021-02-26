@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(0, 0, 0);   
+   
+}
+
+input{
+    color:black
+}
+
+button{
+    color: rgb(202, 211, 238);
+    border-color: rgb(190, 179, 179);
+    border-width: 1px;
+    background-color: rgba(53, 90, 158, 0.952);
+    filter: drop-shadow(0px 0px 10px #aaa);
+    margin-top: 60px;
+    padding: 5px 20px 5px 20px;
+}
+
+select, input{
+    padding: 5px 0px 5px 6px;
+    margin: 0px auto 5px auto
+}
+
+button, select, input{
+    font-family: 'Montserrat', sans-serif;
+    font-size:x-small;
+    border-radius: 8px;
+}    
+
+
+#form {
+    margin: 150px auto 150px auto;
+    width: fit-content;
+}
+
+#cep{
+    inline-size: 252px; 
+}
+
+#rua, #cidade{
+    inline-size: 170px; 
+}
+
+#uf{
+    inline-size: 75px; 
+}
+
+#numero{
+    inline-size: 69px; 
+}
+
+#complemento, #bairro{
+    inline-size: 119px; 
+}
