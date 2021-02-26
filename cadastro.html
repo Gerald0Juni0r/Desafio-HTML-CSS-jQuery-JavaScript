@@ -6,15 +6,33 @@
     <link rel="stylesheet" href="general.css">
     
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+
     
+    <script type="text.javascript" src = " jquery.js "></script> 
+    <script type="text.javascript" src = "Inputmask/jquery.inputmask.js"></script>
+    <script type="text.javascript" src = "Inputmask/inputmask.js"></script>
+    <script src = "Inputmask/bindings/inputmask.binding.js"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./Inputmask/jquery.inputmask.min.js"></script>
-   
+    <script>$(document).ready(function() { 
+        $("#cep").inputmask("99.999-999");
+        $("#cep").keyup(function(){
+            var cep = $("#cep").val().replaceAll(/[_.-]/g,"")
+                if(cep.length ==8){
+                console.log(cep)
+            }
+        })
+        $("#numero").inputmask("");
+        });
+    </script>
+    
 </head>
 <body>
     <div class="container" id="form" >
-        <b> <input type="tel"placeholder="CEP" maxlength="9" id="cep"></b>
+        
+        <input type="tel"placeholder="CEP" maxlength="10" id="cep"></input>
         <br>
 
         <input type="text" placeholder="Rua" required id="rua">
@@ -25,7 +43,7 @@
         <input type="text" placeholder="Bairro" required id="bairro">
         <br>
         
-        <input type="text" placeholder="Cidade" id="cidade" required id="cidade"></b>
+        <input type="text" placeholder="Cidade" id="cidade" required id="cidade">
         
         <select name="uf" required id="uf">
             <option disable value="">UF</option>
