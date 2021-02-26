@@ -5,7 +5,10 @@
 
 
 <!DOCTYPE html>
-<html lang="en"  data-color-mode="dark" data-light-theme="light" data-dark-theme="dark">
+<html lang="en" 
+  data-color-mode="dark"
+  data-light-theme="light"
+  data-dark-theme="dark">
   <head>
     <meta charset="utf-8">
   <link rel="dns-prefetch" href="https://github.githubassets.com">
@@ -17,14 +20,14 @@
 
   <link crossorigin="anonymous" media="all" integrity="sha512-vlkJnxjyyISVRjmQMRMTjnlGR2Q2O0qX16yjeOM6QiAfeL981pfcjzyFCZWkXe65y6CivHbGsaIiyyE3Ec1Oig==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-be59099f18f2c884954639903113138e.css" />
   
-    <link crossorigin="anonymous" media="all" integrity="sha512-Mout8ZTsxQZkLuenMPpNV+uimzTslQfbTch27Nq0pbLnoR+A1Pt+lNIiDnWPNaB6rChUp+gCqtkViVBS1/V3dQ==" rel="stylesheet" href="https://github.githubassets.com/assets/behaviors-328badf194ecc506642ee7a730fa4d57.css" />
+    <link crossorigin="anonymous" media="all" integrity="sha512-EFKeTFbykOZhjl8Lc/P6Evw7yZwtofy+niaWzh0oK+WLFlHqPrP52YDtv2WVUYc/RiN1RjNLgY4eRnSgrfTsvw==" rel="stylesheet" href="https://github.githubassets.com/assets/behaviors-10529e4c56f290e6618e5f0b73f3fa12.css" />
     
     
     
-    <link crossorigin="anonymous" media="all" integrity="sha512-ozHGNRB5TsYYQvpKv4n6nFWou3T1UK906AZ7nJed84OgWGNbwZ4+d6G5/jha9qXr8sAoVzDu2h8BARiu6kkzlw==" rel="stylesheet" href="https://github.githubassets.com/assets/github-a331c63510794ec61842fa4abf89fa9c.css" />
+    <link crossorigin="anonymous" media="all" integrity="sha512-BSwQDuCyL0/zPu7DUeRxqvFpUW6qKZTasw4K4Os1oleUOQevMv+7VffqBG7rhoBia/eErjepy20p8FVgI7OYlA==" rel="stylesheet" href="https://github.githubassets.com/assets/github-052c100ee0b22f4ff33eeec351e471aa.css" />
 
   <script crossorigin="anonymous" defer="defer" integrity="sha512-8K2vvwbW+6H27Nad5ydg8PA2/aMD/LKq+EiK9s0U0hhVZxCI2tWBsYk9beAtisRw2j+Or5k2/F+6dk02nmj/PA==" type="application/javascript" src="https://github.githubassets.com/assets/environment-f0adafbf.js"></script>
-    <script crossorigin="anonymous" defer="defer" integrity="sha512-wxbDdsfV3ZXvZcG3x1EVdRRIYqtqF9pJCk7lYK5F4g4QACdsYlp1QJ7oVl8GaEX//zwn6qszLE/i1HhQwujvgg==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-frameworks-c316c376.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-rN6fyxcZGzb0ET7WoVpzWtBMglH5IJUR7whSNYa65F7wrGzm+qlKWcz0AyoO5VnevHNVzwkiN5QqMWJIdBAs6w==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-frameworks-acde9fcb.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-ez6ZuPFZ6owUkFKpXFA2wSMYeTJFqWW5P7D+EUjB7P5lobOaWbRZ+y8P/QQc7cf0t75W64Z9Z22qiE6BWQ1wsQ==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-vendor-7b3e99b8.js"></script>
   
   <script crossorigin="anonymous" defer="defer" integrity="sha512-aS34JFNp+35Qf7qIC+256/9c6FmiI+LmO/STlPd0OkP8F65fvGW7+WDOAVoyJEQHWziBKoNcKK6P+cmzC9x35g==" type="application/javascript" src="https://github.githubassets.com/assets/behaviors-692df824.js"></script>
@@ -43,13 +46,12 @@
     <script crossorigin="anonymous" defer="defer" integrity="sha512-QBwrFY4kzAVN0nZmTYJLeEhi5bQ+42rE8h1g384XeZb7n62BykcUICACtaDQ473aIrRf38RSR7WDfNEIVuSlTA==" type="application/javascript" data-module-id="./chunk-tweetsodium.js" data-src="https://github.githubassets.com/assets/chunk-tweetsodium-401c2b15.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-8nRDQm5TNi0w14xLbeSNsfFrDb1VhUXLGA1f0CqODEhDhYuKYEmSET/IfHWycu+LDTB4OEHyHwBqsW9PBOUt1Q==" type="application/javascript" data-module-id="./chunk-user-status-submit.js" data-src="https://github.githubassets.com/assets/chunk-user-status-submit-f2744342.js"></script>
   
-  <script crossorigin="anonymous" defer="defer" integrity="sha512-IhaoklYT6vh3Q+51DCHyXqybkHb7nf+dk2//MGHeRgvxQkKKTIV6gw7smX5al3k7c53SCSDY1+quYWz1q6i89g==" type="application/javascript" src="https://github.githubassets.com/assets/codespaces-2216a892.js"></script>
-<script crossorigin="anonymous" defer="defer" integrity="sha512-PhGZbTBXNjJ6h8SGc6DaFxnUw4GLN/FyxiQ08qgRP81eONqtdo+Hm4Ln5F3a3dHHjEzo+h71q+/EJMxbpHbT/A==" type="application/javascript" src="https://github.githubassets.com/assets/repositories-3e11996d.js"></script>
-<script crossorigin="anonymous" defer="defer" integrity="sha512-aw5tciVT0IsECUmMuwp9ez60QReE2/yFNL1diLgZnOom6RhU8+0lG3RlAKto4JwbCoEP15E41Pksd7rK5BKfCQ==" type="application/javascript" src="https://github.githubassets.com/assets/topic-suggestions-6b0e6d72.js"></script>
+  <script crossorigin="anonymous" defer="defer" integrity="sha512-PhGZbTBXNjJ6h8SGc6DaFxnUw4GLN/FyxiQ08qgRP81eONqtdo+Hm4Ln5F3a3dHHjEzo+h71q+/EJMxbpHbT/A==" type="application/javascript" src="https://github.githubassets.com/assets/repositories-3e11996d.js"></script>
+<script crossorigin="anonymous" defer="defer" integrity="sha512-s1zbPfTud+ym70PrOOEd7C7fPCqDSZmqlhaQNPZ4Cd0ICRtORFo96Am3LnLvehshZpj5XvK7GbsvkwlI3WOJQw==" type="application/javascript" src="https://github.githubassets.com/assets/diffs-b35cdb3d.js"></script>
 
   <meta name="viewport" content="width=device-width">
   
-  <title>Inputmask/dist/bindings at 5.x · RobinHerbots/Inputmask</title>
+  <title>Inputmask/inputmask.binding.js at 5.x · RobinHerbots/Inputmask</title>
     <meta name="description" content="Input Mask plugin. Contribute to RobinHerbots/Inputmask development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -63,11 +65,11 @@
     
 
   <link rel="assets" href="https://github.githubassets.com/">
-    <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/58188995/ws?session=eyJ2IjoiVjMiLCJ1Ijo1ODE4ODk5NSwicyI6NjUwMTc3MTE3LCJjIjozMjQ0OTU1MzI2LCJ0IjoxNjE0MjI2NzEzfQ==--437f120e918748e6f8ad1bb67aee0b9c80b29507d8458cd290c86e83683ac60d" data-refresh-url="/_alive">
+    <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/58188995/ws?session=eyJ2IjoiVjMiLCJ1Ijo1ODE4ODk5NSwicyI6NjUwMTc3MTE3LCJjIjozMTQyOTg3ODY2LCJ0IjoxNjE0Mjk5NjQyfQ==--8676a7658df2dc9f0cf6df148931a73c7b43c1056cf75ea4b40743ab3736a823" data-refresh-url="/_alive">
     <link rel="shared-web-socket-src" href="/socket-worker-5029ae85.js">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-  <meta name="request-id" content="246A:24DC:941DCF:B8140A:60372513" data-pjax-transient="true" /><meta name="html-safe-nonce" content="4a46446a9cc4046bd2c7a47766abd52a0f4287d75256957ae9903287f683f31b" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9Sb2JpbkhlcmJvdHMvSW5wdXRtYXNrL3RyZWUvNS54L2Rpc3QiLCJyZXF1ZXN0X2lkIjoiMjQ2QToyNERDOjk0MURDRjpCODE0MEE6NjAzNzI1MTMiLCJ2aXNpdG9yX2lkIjoiOTE3MTg1MDcwNzQ1ODIzMTMwIiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true" /><meta name="visitor-hmac" content="8650bad99bbb04d54862ab9f67abd6534ed717d38ee85c867af981d965ef643a" data-pjax-transient="true" />
+  <meta name="request-id" content="2925:7FAB:2C8ED7:378449:603841E5" data-pjax-transient="true" /><meta name="html-safe-nonce" content="4a46446a9cc4046bd2c7a47766abd52a0f4287d75256957ae9903287f683f31b" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9Sb2JpbkhlcmJvdHMvSW5wdXRtYXNrL3RyZWUvNS54L2Rpc3QvYmluZGluZ3MiLCJyZXF1ZXN0X2lkIjoiMjkyNTo3RkFCOjJDOEVENzozNzg0NDk6NjAzODQxRTUiLCJ2aXNpdG9yX2lkIjoiOTE3MTg1MDcwNzQ1ODIzMTMwIiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true" /><meta name="visitor-hmac" content="9052ada395fd3c4fe781cf4d19b33c8c6b5726b40f6eb5cbba6f5bdee40c8fdb" data-pjax-transient="true" />
 
     <meta name="hovercard-subject-tag" content="repository:926231" data-pjax-transient>
 
@@ -85,12 +87,16 @@
 
   <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-actor-id" content="58188995" /><meta name="octolytics-actor-login" content="Gerald0Juni0r" /><meta name="octolytics-actor-hash" content="722b46a4065b4b8ec39e034010fdd8fde070e1ca9d23029fc4844747502b959a" />
 
-  <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/files/disambiguate" data-pjax-transient="true" />
+  <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
   
 
 
 
+  <meta name="optimizely-datafile" content="{&quot;version&quot;: &quot;4&quot;, &quot;rollouts&quot;: [], &quot;typedAudiences&quot;: [], &quot;anonymizeIP&quot;: true, &quot;projectId&quot;: &quot;16737760170&quot;, &quot;variables&quot;: [], &quot;featureFlags&quot;: [], &quot;experiments&quot;: [], &quot;audiences&quot;: [{&quot;conditions&quot;: &quot;[\&quot;or\&quot;, {\&quot;match\&quot;: \&quot;exact\&quot;, \&quot;name\&quot;: \&quot;$opt_dummy_attribute\&quot;, \&quot;type\&quot;: \&quot;custom_attribute\&quot;, \&quot;value\&quot;: \&quot;$opt_dummy_value\&quot;}]&quot;, &quot;id&quot;: &quot;$opt_dummy_audience&quot;, &quot;name&quot;: &quot;Optimizely-Generated Audience for Backwards Compatibility&quot;}], &quot;groups&quot;: [], &quot;attributes&quot;: [{&quot;id&quot;: &quot;16822470375&quot;, &quot;key&quot;: &quot;user_id&quot;}, {&quot;id&quot;: &quot;17143601254&quot;, &quot;key&quot;: &quot;spammy&quot;}, {&quot;id&quot;: &quot;18175660309&quot;, &quot;key&quot;: &quot;organization_plan&quot;}, {&quot;id&quot;: &quot;18813001570&quot;, &quot;key&quot;: &quot;is_logged_in&quot;}, {&quot;id&quot;: &quot;19073851829&quot;, &quot;key&quot;: &quot;geo&quot;}], &quot;botFiltering&quot;: false, &quot;accountId&quot;: &quot;16737760170&quot;, &quot;events&quot;: [{&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;17911811441&quot;, &quot;key&quot;: &quot;hydro_click.dashboard.teacher_toolbox_cta&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18124116703&quot;, &quot;key&quot;: &quot;submit.organizations.complete_sign_up&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18145892387&quot;, &quot;key&quot;: &quot;no_metric.tracked_outside_of_optimizely&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18178755568&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.add_repo&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18180553241&quot;, &quot;key&quot;: &quot;submit.repository_imports.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18186103728&quot;, &quot;key&quot;: &quot;click.help.learn_more_about_repository_creation&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18188530140&quot;, &quot;key&quot;: &quot;test_event.do_not_use_in_production&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18191963644&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.transfer_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18195612788&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.import_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18210945499&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.invite_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18211063248&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.create_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18215721889&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.update_profile&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18224360785&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.dismiss&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18234832286&quot;, &quot;key&quot;: &quot;submit.organization_activation.complete&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18252392383&quot;, &quot;key&quot;: &quot;submit.org_repository.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18257551537&quot;, &quot;key&quot;: &quot;submit.org_member_invitation.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18259522260&quot;, &quot;key&quot;: &quot;submit.organization_profile.update&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18564603625&quot;, &quot;key&quot;: &quot;view.classroom_select_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18568612016&quot;, &quot;key&quot;: &quot;click.classroom_sign_in_click&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18572592540&quot;, &quot;key&quot;: &quot;view.classroom_name&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18574203855&quot;, &quot;key&quot;: &quot;click.classroom_create_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18582053415&quot;, &quot;key&quot;: &quot;click.classroom_select_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18589463420&quot;, &quot;key&quot;: &quot;click.classroom_create_classroom&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18591323364&quot;, &quot;key&quot;: &quot;click.classroom_create_first_classroom&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18591652321&quot;, &quot;key&quot;: &quot;click.classroom_grant_access&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18607131425&quot;, &quot;key&quot;: &quot;view.classroom_creation&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18831680583&quot;, &quot;key&quot;: &quot;upgrade_account_plan&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19064064515&quot;, &quot;key&quot;: &quot;click.signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19075373687&quot;, &quot;key&quot;: &quot;click.view_account_billing_page&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19077355841&quot;, &quot;key&quot;: &quot;click.dismiss_signup_prompt&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19079713938&quot;, &quot;key&quot;: &quot;click.contact_sales&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19120963070&quot;, &quot;key&quot;: &quot;click.compare_account_plans&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19151690317&quot;, &quot;key&quot;: &quot;click.upgrade_account_cta&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19424193129&quot;, &quot;key&quot;: &quot;click.open_account_switcher&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19520330825&quot;, &quot;key&quot;: &quot;click.visit_account_profile&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19540970635&quot;, &quot;key&quot;: &quot;click.switch_account_context&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19730198868&quot;, &quot;key&quot;: &quot;submit.homepage_signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19820830627&quot;, &quot;key&quot;: &quot;click.homepage_signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19988571001&quot;, &quot;key&quot;: &quot;click.create_enterprise_trial&quot;}], &quot;revision&quot;: &quot;460&quot;}" />
+  <!-- To prevent page flashing, the optimizely JS needs to be loaded in the
+    <head> tag before the DOM renders -->
+  <script crossorigin="anonymous" defer="defer" integrity="sha512-W1d5sgym3BsWbUe7hCryQNFytsdsH6xKMY0wpid1izznZdSd6hBG7sOj+j6ISmYkoqPonCpkWKp0aG/MGGKRKg==" type="application/javascript" src="https://github.githubassets.com/assets/optimizely-5b5779b2.js"></script>
 
 
 
@@ -102,11 +108,11 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="OWZlOGFhMTdlNGM1OWMxMzdjZGQ5MDUwNWNmZWZjNzY0YWFhOWQ2NWJmMWJhNWU3YzhhMTQ0ZjU2NTgwOWQ0Nnx7InJlbW90ZV9hZGRyZXNzIjoiNDUuMTc4LjIyMS4yNTEiLCJyZXF1ZXN0X2lkIjoiMjQ2QToyNERDOjk0MURDRjpCODE0MEE6NjAzNzI1MTMiLCJ0aW1lc3RhbXAiOjE2MTQyMjY3MTMsImhvc3QiOiJnaXRodWIuY29tIn0=">
+      <meta name="js-proxy-site-detection-payload" content="YzRhZDQxZjA2Mzk4MWQ4MzVlMDY1MGVjNzdmMjVhZjY2ZTk0M2M0OGE4NTQ4N2QwMDYzMTQwZDhhODUyOTgzNHx7InJlbW90ZV9hZGRyZXNzIjoiNDUuMTc4LjIyMS4yNTEiLCJyZXF1ZXN0X2lkIjoiMjkyNTo3RkFCOjJDOEVENzozNzg0NDk6NjAzODQxRTUiLCJ0aW1lc3RhbXAiOjE2MTQyOTk2NDIsImhvc3QiOiJnaXRodWIuY29tIn0=">
 
     <meta name="enabled-features" content="MARKETPLACE_PENDING_INSTALLATIONS,JS_HTTP_CACHE_HEADERS">
 
-  <meta http-equiv="x-pjax-version" content="aab239ef8ccc28e37c2da5d856dec186d21ec819e82b1923d72c5b85100ae25a">
+  <meta http-equiv="x-pjax-version" content="1e234ef4ba5eb3373ba988066c5190f3064a143e8bfd0aa76187b55c5f35ae8f">
   
 
         <link href="https://github.com/RobinHerbots/Inputmask/commits/5.x.atom" rel="alternate" title="Recent Commits to Inputmask:5.x" type="application/atom+xml">
@@ -117,7 +123,7 @@
 
 
 
-    <link rel="canonical" href="https://github.com/RobinHerbots/Inputmask/tree/5.x/dist/bindings" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/RobinHerbots/Inputmask/blob/5.x/dist/bindings/inputmask.binding.js" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -138,11 +144,11 @@
 
   </head>
 
-  <body class="logged-in env-production page-responsive" style="word-wrap: break-word;">
+  <body class="logged-in env-production page-responsive page-blob" style="word-wrap: break-word;">
     
 
     <div class="position-relative js-header-wrapper ">
-      <a href="#start-of-content" class="p-3 color-bg-info-inverse text-white show-on-focus js-skip-to-content">Skip to content</a>
+      <a href="#start-of-content" class="p-3 color-bg-info-inverse color-text-white show-on-focus js-skip-to-content">Skip to content</a>
       <span class="progress-pjax-loader width-full js-pjax-loader-bar Progress position-fixed">
     <span style="background-color: #79b8ff;width: 0%;" class="Progress-item progress-pjax-loader-bar "></span>
 </span>      
@@ -191,7 +197,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" value="0B4w8LAcmua6/uMbSWdnlM/hTNrkh5PSigumnDwpKTHNYbF02ZtLOVr7sCBK164nhtLFz+e4dDmgr2sTpL+OcA==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+          <input type="hidden" value="PDRSxposLT1QlOHRI3l64LlHCcPpAy6FvaY7Aw+cURAhS9NC86v84rCRsuogybNT8HSA1uo8yW6XAvaMlwr2UQ==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -380,7 +386,7 @@
       <img class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/58188995?s=40&amp;v=4" width="20" height="20" alt="@Gerald0Juni0r" />
       Gerald0Juni0r
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="jU4qt3yO0XHpY+XoVD5lLPShCnQu/kOmOIhFeL6FXimCEvM5QDd7wYCaKjN9sTFrGGCpgj+BC62qu0cLEcGbHw==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="41FQoOkzc1vILcQhFPqBYcZ01taS7J+4GU6nizptD7rsDYku1YrZ66HUC/o9ddUmKrV1IIOT17OLfaX4lSnKjA==" />
       <button type="submit" class="Header-link mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade-15 d-md-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.75C2 1.784 2.784 1 3.75 1h2.5a.75.75 0 010 1.5h-2.5a.25.25 0 00-.25.25v10.5c0 .138.112.25.25.25h2.5a.75.75 0 010 1.5h-2.5A1.75 1.75 0 012 13.25V2.75zm10.44 4.5H6.75a.75.75 0 000 1.5h5.69l-1.97 1.97a.75.75 0 101.06 1.06l3.25-3.25a.75.75 0 000-1.06l-3.25-3.25a.75.75 0 10-1.06 1.06l1.97 1.97z"></path></svg>
         Sign out
@@ -400,7 +406,7 @@
     <div class="Header-item mr-0 mr-md-3 flex-order-1 flex-md-order-none">
         
 
-    <notification-indicator class="js-socket-channel" data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6NTgxODg5OTUiLCJ0IjoxNjE0MjI2NzEzfQ==--d53e02ffbaf293c27a0cf5d720953b7c3240b4c56288c6c7ad0dd80be3c5c1e0">
+    <notification-indicator class="js-socket-channel" data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6NTgxODg5OTUiLCJ0IjoxNjE0Mjk5NjQyfQ==--0fd16e0e8b2926ff043a4e259dddb28b458325387ebd6344fc5e40d62e31500d">
       <a href="/notifications"
          class="Header-link notification-indicator position-relative tooltipped tooltipped-sw"
          
@@ -478,7 +484,7 @@
   </path>
 </svg>
         </p>
-        <p class="ml-1 mb-2 mt-2 text-gray-dark" data-show-on-error>
+        <p class="ml-1 mb-2 mt-2 color-text-primary" data-show-on-error>
           <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path></svg>
           Sorry, something went wrong.
         </p>
@@ -532,6 +538,7 @@
         <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
     <main id="js-repo-pjax-container" data-pjax-container >
       
+
       
 
 
@@ -567,7 +574,7 @@
       <details id="funding-links-modal" class="details-reset details-overlay details-overlay-dark d-inline-block float-left" >
         <summary id="sponsor-button-repo" class="btn btn-sm"
           title="Sponsor RobinHerbots/Inputmask"
-          data-ga-click="Repository, show sponsor modal, action:files#disambiguate; text:Sponsor"
+          data-ga-click="Repository, show sponsor modal, action:blob#show; text:Sponsor"
           >
           <svg class="octicon octicon-heart text-pink" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4.25 2.5c-1.336 0-2.75 1.164-2.75 3 0 2.15 1.58 4.144 3.365 5.682A20.565 20.565 0 008 13.393a20.561 20.561 0 003.135-2.211C12.92 9.644 14.5 7.65 14.5 5.5c0-1.836-1.414-3-2.75-3-1.373 0-2.609.986-3.029 2.456a.75.75 0 01-1.442 0C6.859 3.486 5.623 2.5 4.25 2.5zM8 14.25l-.345.666-.002-.001-.006-.003-.018-.01a7.643 7.643 0 01-.31-.17 22.075 22.075 0 01-3.434-2.414C2.045 10.731 0 8.35 0 5.5 0 2.836 2.086 1 4.25 1 5.797 1 7.153 1.802 8 3.02 8.847 1.802 10.203 1 11.75 1 13.914 1 16 2.836 16 5.5c0 2.85-2.045 5.231-3.885 6.818a22.08 22.08 0 01-3.744 2.584l-.018.01-.006.003h-.002L8 14.25zm0 0l.345.666a.752.752 0 01-.69 0L8 14.25z"></path></svg>
           Sponsor
@@ -608,7 +615,7 @@
         data-action="toggle:notifications-list-subscription-form#detailsToggled"
       >
 
-      <summary class="btn btn-sm rounded-right-0" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:926231,&quot;originating_url&quot;:&quot;https://github.com/RobinHerbots/Inputmask/tree/5.x/dist/bindings&quot;,&quot;user_id&quot;:58188995}}" data-hydro-click-hmac="7b34742649b7fd00b3bf024e33395b55220068d399be164e3a92198e2465801d" data-ga-click="Repository, click Watch settings, action:files#disambiguate" aria-label="Notifications settings">
+      <summary class="btn btn-sm rounded-right-0" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:926231,&quot;originating_url&quot;:&quot;https://github.com/RobinHerbots/Inputmask/blob/5.x/dist/bindings/inputmask.binding.js&quot;,&quot;user_id&quot;:58188995}}" data-hydro-click-hmac="9b0b3680d944fb231b75944641b6ddd84e92dc15b1eba7a2bab59d8461fc27a6" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notifications settings">
           <span data-menu-button>
             <span
               hidden
@@ -652,7 +659,7 @@
             </header>
 
             <div class="SelectMenu-list">
-              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="tIiR8/8/bTwLrpO5ProeY97TOZscQsIJ8GZ2gRabx+iiFXwDzf0jksfuY+3zfN6LwupSiO3mh07b9Z5X4TG/5g==" />
+              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="A+aJhNgrLL4GDEFqZT/0+ZcuxE/Je5h86DXSjmpyPEwVe2R06uliEMpMsT6o+TQRixevXDjf3TvDpjpYndhEQg==" />
 
                 <input type="hidden" name="repository_id" value="926231">
 
@@ -754,7 +761,7 @@
 
         <details-dialog class="notifications-component-dialog " data-target="notifications-list-subscription-form.customDialog" hidden>
           <div class="SelectMenu-modal notifications-component-dialog-modal overflow-visible">
-            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Z2g1KvttHzwN9Utnsrd1DtlpMR34oFigQpk2ZPR8h6hx9djaya9RksG1uzN/cbXmxVBaDgkEHedpCt6yA9b/pg==" />
+            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="kDqLZ+FQl5HPCHzAKEcmfbvd6wqxS7AJlkO9CwIOSI6Gp2aX05LZPwNIjJTlgeaVp+SAGUDv9U690FXd9aQwgA==" />
 
               <input type="hidden" name="repository_id" value="926231">
 
@@ -890,9 +897,9 @@
 
   <li>
         <div class="d-block js-toggler-container js-social-container starring-container ">
-    <form class="starred js-social-form" action="/RobinHerbots/Inputmask/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="FSGC5jMiNhiTmW2nP8OdY7y5hnbi4xV2/t+N5WM2j7bnqG+shjLJ7H63XQ1yLSRr9sNdK49I+6q87LvMCOP7qg==" />
+    <form class="starred js-social-form" action="/RobinHerbots/Inputmask/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="1YxomuGZ7ykkdAaLKtLPIsEyoWkVPPHQQpLuw1ynj3onBYXQVIkQ3claNiFnPHYqi0h6NHiXHwwAodjqN3L7Zg==" />
       <input type="hidden" name="context" value="repository">
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar RobinHerbots/Inputmask" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:926231,&quot;originating_url&quot;:&quot;https://github.com/RobinHerbots/Inputmask/tree/5.x/dist/bindings&quot;,&quot;user_id&quot;:58188995}}" data-hydro-click-hmac="fd05f4a0f5adc5cefbccf8886dba2194e3174efda2ba395dc1c835dc81a15da6" data-ga-click="Repository, click unstar button, action:files#disambiguate; text:Unstar">        <svg class="octicon octicon-star-fill mr-1" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar RobinHerbots/Inputmask" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:926231,&quot;originating_url&quot;:&quot;https://github.com/RobinHerbots/Inputmask/blob/5.x/dist/bindings/inputmask.binding.js&quot;,&quot;user_id&quot;:58188995}}" data-hydro-click-hmac="5fe5737d85b197c3b858bab7aa19e45957f85d301a9dce4efd78adf2d481ba3b" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star-fill mr-1" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
         <span>
           Unstar
 </span></button>        <a class="social-count js-social-count" href="/RobinHerbots/Inputmask/stargazers"
@@ -900,9 +907,9 @@
            5.3k
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/RobinHerbots/Inputmask/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="tMODnzYzSFcgX3wqE6fRZ+pzYBNObvwr/eLaE0SbSwZcA7RrXHitHAQ9CtUnzvynNtN2IDcg2cm0gO0cbQQWew==" />
+    <form class="unstarred js-social-form" action="/RobinHerbots/Inputmask/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="XeTr3KxANIndi5p65a7kwdOXZAr2f2om4S1+a7ZnMAC1JNwoxgvRwvnp7IXRx8kBDzdyOY8xT8SoT0lkn/htfQ==" />
       <input type="hidden" name="context" value="repository">
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star RobinHerbots/Inputmask" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:926231,&quot;originating_url&quot;:&quot;https://github.com/RobinHerbots/Inputmask/tree/5.x/dist/bindings&quot;,&quot;user_id&quot;:58188995}}" data-hydro-click-hmac="abd244ff8811404de7b1c333a2c084515d51d7ba1038211cc87c1d2669e43c74" data-ga-click="Repository, click star button, action:files#disambiguate; text:Star">        <svg class="octicon octicon-star mr-1" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star RobinHerbots/Inputmask" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:926231,&quot;originating_url&quot;:&quot;https://github.com/RobinHerbots/Inputmask/blob/5.x/dist/bindings/inputmask.binding.js&quot;,&quot;user_id&quot;:58188995}}" data-hydro-click-hmac="badc744ab302474b16ce1350b3b1134e6a2501a3bb3972ce452c2bbbd88ef8eb" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star mr-1" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
         <span>
           Star
 </span></button>        <a class="social-count js-social-count" href="/RobinHerbots/Inputmask/stargazers"
@@ -914,12 +921,12 @@
   </li>
 
   <li>
-            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/RobinHerbots/Inputmask/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="b7u/oCjTx9m3Yj5iga4/QbCDNLINO1sE4ei8mKLoIhV3m5EX8MltPWNK7OljYFFV9peutLbmAP35C5xaQ+b1Lg==" />
-              <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:926231,&quot;originating_url&quot;:&quot;https://github.com/RobinHerbots/Inputmask/tree/5.x/dist/bindings&quot;,&quot;user_id&quot;:58188995}}" data-hydro-click-hmac="768081480c4872b2abc0c6f9ec20f6a62b6ca925b3a72ff64cf8d48820794dec" data-ga-click="Repository, show fork modal, action:files#disambiguate; text:Fork" type="submit" title="Fork your own copy of RobinHerbots/Inputmask to your account" aria-label="Fork your own copy of RobinHerbots/Inputmask to your account">                <svg class="octicon octicon-repo-forked" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path></svg>
+            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/RobinHerbots/Inputmask/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="dgbYEzypfz1CZ8omUhywFdCH0Wm0nhL27RQp/FK1DcpuJvak5LPV2ZZPGK2w0t4BlpNLbw9DSQ/19wk+s7va8Q==" />
+              <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:926231,&quot;originating_url&quot;:&quot;https://github.com/RobinHerbots/Inputmask/blob/5.x/dist/bindings/inputmask.binding.js&quot;,&quot;user_id&quot;:58188995}}" data-hydro-click-hmac="4398e947895bd6961398ddac7b7785b28fa8cb4639835c28ba60b9a31318a630" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of RobinHerbots/Inputmask to your account" aria-label="Fork your own copy of RobinHerbots/Inputmask to your account">                <svg class="octicon octicon-repo-forked" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path></svg>
                 Fork
 </button></form>
       <a href="/RobinHerbots/Inputmask/network/members" class="social-count"
-         aria-label="1977 users forked this repository">
+         aria-label="1979 users forked this repository">
         2k
       </a>
   </li>
@@ -1051,9 +1058,18 @@
 
     
       
-    <div>
-  <div class="file-navigation mb-3 d-flex flex-items-start">
     
+
+<div>
+  
+
+
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/RobinHerbots/Inputmask/blob/b5356359bf373b4a272e73f6d2aa47f598442371/dist/bindings/inputmask.binding.js">Permalink</a>
+
+    <!-- blob contrib key: blob_contributors:v22:783e822a65a25b4336883ea5230afc8fbc86aba2153a7d3cb961c1e45ef7f2a4 -->
+
+    <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
+      
 <div class="position-relative">
   <details class="details-reset details-overlay mr-0 mb-0 " id="branch-select-menu">
     <summary class="btn css-truncate"
@@ -1126,7 +1142,7 @@
             </div>
 
             <template data-target="ref-selector.itemTemplate">
-              <a href="https://github.com/RobinHerbots/Inputmask/tree/{{ urlEncodedRefName }}/dist/bindings" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+              <a href="https://github.com/RobinHerbots/Inputmask/blob/{{ urlEncodedRefName }}/dist/bindings/inputmask.binding.js" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
                 <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
                 <span class="flex-1 css-truncate css-truncate-overflow {{ isFilteringClass }}">{{ refName }}</span>
                 <span hidden="{{ isNotDefault }}" class="Label Label--secondary flex-self-start">default</span> 
@@ -1158,7 +1174,7 @@
             </template>
 
             <template data-target="ref-selector.itemTemplate">
-              <a href="https://github.com/RobinHerbots/Inputmask/tree/{{ urlEncodedRefName }}/dist/bindings" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+              <a href="https://github.com/RobinHerbots/Inputmask/blob/{{ urlEncodedRefName }}/dist/bindings/inputmask.binding.js" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
                 <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
                 <span class="flex-1 css-truncate css-truncate-overflow {{ isFilteringClass }}">{{ refName }}</span>
                 <span hidden="{{ isNotDefault }}" class="Label Label--secondary flex-self-start">default</span>
@@ -1186,197 +1202,314 @@
 
 </div>
 
-
-    <div class="flex-1 mx-2 flex-self-center f4">
-      <div class="d-none d-sm-block">
-        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/RobinHerbots/Inputmask"><span>Inputmask</span></a></span></span><span class="mx-1">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/RobinHerbots/Inputmask/tree/5.x/dist"><span>dist</span></a></span><span class="mx-1">/</span><strong class="final-path">bindings</strong><span class="mx-1">/</span>
+      <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal mx-0 mx-md-3 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0">
+        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/RobinHerbots/Inputmask"><span>Inputmask</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/RobinHerbots/Inputmask/tree/5.x/dist"><span>dist</span></a></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/RobinHerbots/Inputmask/tree/5.x/dist/bindings"><span>bindings</span></a></span><span class="separator">/</span><strong class="final-path">inputmask.binding.js</strong>
+          <span class="separator">/</span><details class="details-reset details-overlay d-inline" id="jumpto-symbol-select-menu">
+  <summary class="btn-link Link--secondary css-truncate" aria-haspopup="true" data-hotkey="r" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_blob_definitions&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_blob_definitions&quot;,&quot;repository_id&quot;:926231,&quot;ref&quot;:&quot;5.x&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;originating_url&quot;:&quot;https://github.com/RobinHerbots/Inputmask/blob/5.x/dist/bindings/inputmask.binding.js&quot;,&quot;user_id&quot;:58188995}}" data-hydro-click-hmac="56cf10237618387836c439af182e8bd8d412dd5404a8eb2268e4c06beefdc99b">
+      <svg class="octicon octicon-code" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path></svg>
+    <span data-menu-button>Jump to</span>
+    <span class="dropdown-caret"></span>
+  </summary>
+  <details-menu class="SelectMenu SelectMenu--hasFilter" role="menu">
+    <div class="SelectMenu-modal">
+      <header class="SelectMenu-header">
+        <span class="SelectMenu-title">Code definitions</span>
+        <button class="SelectMenu-closeButton" type="button" data-toggle-for="jumpto-symbol-select-menu">
+          <svg aria-label="Close menu" class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
+        </button>
+      </header>
+        <div class="SelectMenu-filter">
+          <input
+            class="SelectMenu-input form-control js-filterable-field"
+            id="jumpto-symbols-filter-field"
+            type="text"
+            autocomplete="off"
+            spellcheck="false"
+            autofocus
+            placeholder="Filter definitions"
+            aria-label="Filter definitions">
+        </div>
+      <div class="SelectMenu-list">
+        <div data-filterable-for="jumpto-symbols-filter-field" data-filterable-type="substring">
+        </div>
       </div>
+      <footer class="SelectMenu-footer">
+        <div class="d-flex flex-justify-between">
+          Code navigation index up-to-date
+          <svg class="octicon octicon-dot-fill text-green" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
+        </div>
+      </footer>
     </div>
+  </details-menu>
+</details>
 
-    <div class="d-flex">
-      <a class="btn mr-2 d-none d-md-block" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:926231,&quot;originating_url&quot;:&quot;https://github.com/RobinHerbots/Inputmask/tree/5.x/dist/bindings&quot;,&quot;user_id&quot;:58188995}}" data-hydro-click-hmac="a5bb33d2b502ac19afc13f77ba783c2b6e3c70c4299ed8705c6675d86ab5b0fd" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/RobinHerbots/Inputmask/find/5.x">
+      </h2>
+      <a href="/RobinHerbots/Inputmask/find/5.x"
+            class="js-pjax-capture-input btn mr-2 d-none d-md-block"
+            data-pjax
+            data-hotkey="t">
         Go to file
-</a>
-        <details class="details-overlay details-reset position-relative">
-  <summary role="button">
-    <span class="btn d-none d-md-flex flex-items-center">
-              Add file
-              <span class="dropdown-caret ml-1"></span>
-            </span>
-            <span class="btn d-inline-block d-md-none">
-              <svg aria-label="More options" class="octicon octicon-kebab-horizontal" height="16" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path></svg>
-            </span>
-</summary>  <div>
-    <ul class="dropdown-menu dropdown-menu-sw">
-              <li class="d-block d-md-none">
-                <a class="dropdown-item" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:926231,&quot;originating_url&quot;:&quot;https://github.com/RobinHerbots/Inputmask/tree/5.x/dist/bindings&quot;,&quot;user_id&quot;:58188995}}" data-hydro-click-hmac="a5bb33d2b502ac19afc13f77ba783c2b6e3c70c4299ed8705c6675d86ab5b0fd" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/RobinHerbots/Inputmask/find/5.x">
-                  Go to file
-</a>              </li>
-                <li class="d-block d-md-none dropdown-divider" role="none"></li>
-                <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/RobinHerbots/Inputmask/new/5.x/dist/bindings" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="46MGKF7c1SK5qCuq5d2tZJyV2Y2+aUwDi3kBX7eghNZ+Eheqx/A5MHtilAv8oZ4L5VlOZzVCEYFMKSSzEUvmSA==" />
-  <button class="dropdown-item btn-link" type="submit">
-    Create new file
-  </button>
-</form></li>
+      </a>
 
-                <li><a href="/RobinHerbots/Inputmask/upload/5.x/dist/bindings" class="dropdown-item">
-  Upload files
-</a></li>
-
-                <li class="d-block d-md-none dropdown-divider" role="none"></li>
-                <li class="d-block d-md-none">
-                  <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/RobinHerbots/Inputmask/tree/delete/5.x/dist/bindings" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="BW67f4rhWahy15uu0oms7uVLW9KV+gkejULx2NsLiOE7bum97h7UHVTUpLNZSo2RQKFolMtF9YJsBU2Avj7NMw==" />
-  <button class="dropdown-item menu-item-danger btn-link" type="submit">
-    Delete directory
-  </button>
-</form>
-                </li>
-            </ul>
-</div></details>
-          <details class="details-overlay details-reset position-relative">
-  <summary role="button" type="button" class="btn d-none d-md-block ml-md-2">
+      <details id="blob-more-options-details" class="details-overlay details-reset position-relative">
+  <summary role="button" type="button" class="btn ">
     <svg aria-label="More options" class="octicon octicon-kebab-horizontal" height="16" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path></svg>
 </summary>  <div>
     <ul class="dropdown-menu dropdown-menu-sw">
-                <li class="d-none d-md-block">
-                  <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/RobinHerbots/Inputmask/tree/delete/5.x/dist/bindings" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="AxM7TGm2hLzO7dIsujgB78jpUcaO7ffQGYFPulc/8mU9E2mODUkJCeju7TEx+yCQbQNigNBSC0z4xvPiMgq3tw==" />
-  <button class="dropdown-item menu-item-danger btn-link" type="submit">
-    Delete directory
-  </button>
-</form>
-                </li>
-              </ul>
+            <li class="d-block d-md-none">
+              <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:926231,&quot;originating_url&quot;:&quot;https://github.com/RobinHerbots/Inputmask/blob/5.x/dist/bindings/inputmask.binding.js&quot;,&quot;user_id&quot;:58188995}}" data-hydro-click-hmac="56ead2c10575ce082784eac91ce02ba0fca8f0872aaf034d2f24f3dbfc84636a" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/RobinHerbots/Inputmask/find/5.x">
+                <span class="flex-auto">Go to file</span>
+                <span class="text-small text-gray" aria-hidden="true">T</span>
+</a>            </li>
+            <li data-toggle-for="blob-more-options-details">
+              <button type="button" data-toggle-for="jumpto-line-details-dialog" class="btn-link dropdown-item">
+                <span class="d-flex flex-items-baseline">
+                  <span class="flex-auto">Go to line</span>
+                  <span class="text-small text-gray" aria-hidden="true">L</span>
+                </span>
+              </button>
+            </li>
+            <li data-toggle-for="blob-more-options-details">
+              <button type="button" data-toggle-for="jumpto-symbol-select-menu" class="btn-link dropdown-item">
+                <span class="d-flex flex-items-baseline">
+                  <span class="flex-auto">Go to definition</span>
+                  <span class="text-small text-gray" aria-hidden="true">R</span>
+                </span>
+              </button>
+            </li>
+            <li class="dropdown-divider" role="none"></li>
+            <li>
+              <clipboard-copy value="dist/bindings/inputmask.binding.js" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details">
+                Copy path
+              </clipboard-copy>
+            </li>
+          </ul>
 </div></details>    </div>
-  </div>
-
-  <div class="f4 mt-3 mb-3 d-sm-none"><span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/RobinHerbots/Inputmask"><span>Inputmask</span></a></span></span><span class="mx-1">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/RobinHerbots/Inputmask/tree/5.x/dist"><span>dist</span></a></span><span class="mx-1">/</span><strong class="final-path">bindings</strong><span class="separator mx-1">/</span></div>
-
-  
-
-<div class="Box mb-3">
-  <div class="Box-header Box-header--blue position-relative">
-    <h2 class="sr-only">Latest commit</h2>
-    <div class="js-details-container Details d-flex rounded-top-1 flex-items-center flex-wrap" data-issue-and-pr-hovercards-enabled>
-      
-  <div class="flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1 hx_avatar_stack_commit">
-    
-<div class="AvatarStack flex-self-start ">
-  <div class="AvatarStack-body" aria-label="RobinHerbots">
-        <a class="avatar avatar-user" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/users/RobinHerbots/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" style="width:24px;height:24px;" href="/RobinHerbots">
-          <img height="24" width="24" alt="@RobinHerbots" src="https://avatars.githubusercontent.com/u/318447?s=60&amp;u=d93d6e20264e9375b41146c1eaa8175d27b015fc&amp;v=4" class=" avatar-user" />
-</a>  </div>
-</div>
-
-  </div>
-  <div class="flex-1 d-flex flex-items-center ml-3 min-width-0">
-    <div class="css-truncate css-truncate-overflow text-gray">
-      
-      <a href="/RobinHerbots/Inputmask/commits?author=RobinHerbots"
-     class="commit-author user-mention"
-     title="View all commits by RobinHerbots">RobinHerbots</a>
 
 
-  
 
-        <span class="d-none d-sm-inline">
-          <a data-pjax="true" title="eslint fixes and fix #2101" class="Link--primary" href="/RobinHerbots/Inputmask/commit/fedbd8eaa06dcb2488dd5858f1f987e524438894">eslint fixes and</a> <span class="issue-keyword tooltipped tooltipped-se" aria-label="This commit closes pull request #2101."><a data-pjax="true" title="eslint fixes and fix #2101" class="Link--primary" href="/RobinHerbots/Inputmask/commit/fedbd8eaa06dcb2488dd5858f1f987e524438894">fix</a></span> <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="431532577" data-permission-text="Title is private" data-url="https://github.com/RobinHerbots/Inputmask/issues/2101" data-hovercard-type="pull_request" data-hovercard-url="/RobinHerbots/Inputmask/pull/2101/hovercard" href="https://github.com/RobinHerbots/Inputmask/pull/2101">#2101</a>
-        </span>
-    </div>
-    <span class="hidden-text-expander ml-2 d-inline-block d-inline-block d-lg-none">
-      <button type="button" class="hx_bg-black-fade-15 text-gray-dark ellipsis-expander js-details-target" aria-expanded="false">&hellip;</button>
-    </span>
-    <div class="d-flex flex-auto flex-justify-end ml-3 flex-items-baseline">
-        <include-fragment accept="text/fragment+html" src="/RobinHerbots/Inputmask/commit/fedbd8eaa06dcb2488dd5858f1f987e524438894/rollup?direction=sw" class="d-inline"></include-fragment>
-      <a href="/RobinHerbots/Inputmask/commit/fedbd8eaa06dcb2488dd5858f1f987e524438894" class="f6 Link--secondary text-mono ml-2 d-none d-lg-inline" data-pjax>fedbd8e</a>
-      <a href="/RobinHerbots/Inputmask/commit/fedbd8eaa06dcb2488dd5858f1f987e524438894" class="Link--secondary ml-2" data-pjax>
-        <relative-time datetime="2019-04-24T18:35:04Z" class="no-wrap">Apr 24, 2019</relative-time>
-      </a>
-    </div>
-  </div>
-  <div class="pl-0 pl-md-5 flex-order-1 width-full Details-content--hidden">
-      <div class="mt-2">
-        <a data-pjax="true" class="Link--primary text-bold" href="/RobinHerbots/Inputmask/commit/fedbd8eaa06dcb2488dd5858f1f987e524438894">eslint fixes and</a> <span class="issue-keyword tooltipped tooltipped-se" aria-label="This commit closes pull request #2101."><a data-pjax="true" class="Link--primary text-bold" href="/RobinHerbots/Inputmask/commit/fedbd8eaa06dcb2488dd5858f1f987e524438894">fix</a></span> <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="431532577" data-permission-text="Title is private" data-url="https://github.com/RobinHerbots/Inputmask/issues/2101" data-hovercard-type="pull_request" data-hovercard-url="/RobinHerbots/Inputmask/pull/2101/hovercard" href="https://github.com/RobinHerbots/Inputmask/pull/2101">#2101</a>
-      </div>
-
-    <div class="d-flex flex-items-center">
-      <span class="text-gray-dark text-mono d-lg-none hx_bg-black-fade-15 px-1 rounded-1 text-small mt-2">fedbd8e</span>
-    </div>
-  </div>
-      <div class="flex-shrink-0">
-        <h2 class="sr-only">Git stats</h2>
-        <ul class="list-style-none d-flex">
-          <li class="ml-0 ml-md-3">
-            <a data-pjax href="/RobinHerbots/Inputmask/commits/5.x/dist/bindings" class="pl-3 pr-3 py-3 p-md-0 mt-n3 mb-n3 mr-n3 m-md-0 Link--primary no-underline no-wrap">
-              <svg class="octicon octicon-history text-gray" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z"></path></svg>
-              <span class="d-none d-sm-inline">
-                  <strong>History</strong>
-              </span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <h2 id="files"  class="sr-only">Files</h2>
-  
-
-
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/RobinHerbots/Inputmask/tree/b5356359bf373b4a272e73f6d2aa47f598442371/dist/bindings">Permalink</a>
-
-  <div class="include-fragment-error flash flash-error flash-full py-2">
-  <svg class="octicon octicon-alert" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path></svg>
-  
-    Failed to load latest commit information.
-
-
-  
-</div>  <div class="js-details-container Details">
-    <div role="grid" aria-labelledby="files" class="Details-content--hidden-not-important js-navigation-container js-active-navigation-container d-block" data-pjax>
-      <div class="sr-only" role="row">
-        <div role="columnheader">Type</div>
-        <div role="columnheader">Name</div>
-        <div role="columnheader" class="d-none d-md-block">Latest commit message</div>
-        <div role="columnheader">Commit time</div>
-      </div>
-        <div role="row" class="Box-row Box-row--focus-gray p-0 d-flex js-navigation-item" >
-          <div role="rowheader" class="flex-auto min-width-0 col-md-2">
-            <a rel="nofollow" title="Go to parent directory" class="js-navigation-open d-block py-2 px-3" href="/RobinHerbots/Inputmask/tree/5.x/dist">
-              <span class="text-bold text-center d-inline-block" style="min-width: 16px;">. .</span>
-</a>          </div>
-          <div role="gridcell" class="d-none d-md-block"></div>
-          <div role="gridcell"></div>
+    <div class="Box d-flex flex-column flex-shrink-0 mb-3">
+      <include-fragment src="/RobinHerbots/Inputmask/contributors/5.x/dist/bindings/inputmask.binding.js" class="commit-loader">
+        <div class="Box-header Box-header--blue d-flex flex-items-center">
+          <div class="Skeleton avatar avatar-user flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1" style="width:24px;height:24px;"></div>
+          <div class="Skeleton Skeleton--text col-5 ml-2">&nbsp;</div>
         </div>
 
-        <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item ">
-          <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;">
-              <svg aria-label="File" class="octicon octicon-file text-gray-light" height="16" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path></svg>
-
-          </div>
-
-          <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3">
-            <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open link-gray-dark" title="inputmask.binding.js" data-pjax="#repo-content-pjax-container" href="/RobinHerbots/Inputmask/blob/5.x/dist/bindings/inputmask.binding.js">inputmask.binding.js</a></span>
-          </div>
-
-          <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3" >
-              <span class="css-truncate css-truncate-target d-block width-fit">
-                    <a data-pjax="true" title="eslint fixes and fix #2101" class="Link--secondary" href="/RobinHerbots/Inputmask/commit/fedbd8eaa06dcb2488dd5858f1f987e524438894">eslint fixes and</a> <span class="issue-keyword tooltipped tooltipped-se" aria-label="This commit closes pull request #2101."><a data-pjax="true" title="eslint fixes and fix #2101" class="Link--secondary" href="/RobinHerbots/Inputmask/commit/fedbd8eaa06dcb2488dd5858f1f987e524438894">fix</a></span> <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="431532577" data-permission-text="Title is private" data-url="https://github.com/RobinHerbots/Inputmask/issues/2101" data-hovercard-type="pull_request" data-hovercard-url="/RobinHerbots/Inputmask/pull/2101/hovercard" href="https://github.com/RobinHerbots/Inputmask/pull/2101">#2101</a>
-              </span>
-          </div>
-
-          <div role="gridcell" class="text-gray-light text-right" style="width:100px;">
-              <time-ago datetime="2019-04-24T18:35:04Z" class="no-wrap ">Apr 24, 2019</time-ago>
-          </div>
-
+        <div class="Box-body d-flex flex-items-center" >
+          <div class="Skeleton Skeleton--text col-1">&nbsp;</div>
+          <span class="color-text-danger h6 loader-error">Cannot retrieve contributors at this time</span>
         </div>
-    </div>
+</include-fragment>    </div>
+
+
+
+
+
+
+    <div class="Box mt-3 position-relative
+      ">
+      
+<div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
+  <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
+
+      26 lines (26 sloc)
+      <span class="file-info-divider"></span>
+    853 Bytes
   </div>
 
+  <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
+    <div class="BtnGroup">
+      <a href="/RobinHerbots/Inputmask/raw/5.x/dist/bindings/inputmask.binding.js" id="raw-url" role="button" class="btn btn-sm BtnGroup-item ">Raw</a>
+        <a href="/RobinHerbots/Inputmask/blame/5.x/dist/bindings/inputmask.binding.js" data-hotkey="b" role="button" class="btn js-update-url-with-hash btn-sm BtnGroup-item ">Blame</a>
+    </div>
 
+    <div>
+          <a class="btn-octicon tooltipped tooltipped-nw js-remove-unless-platform"
+             data-platforms="windows,mac"
+             href="https://desktop.github.com"
+             aria-label="Open this file in GitHub Desktop"
+             data-ga-click="Repository, open with desktop">
+              <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.75 2.5h12.5a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5a.25.25 0 01.25-.25zM14.25 1H1.75A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path></svg>
+          </a>
 
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/RobinHerbots/Inputmask/edit/5.x/dist/bindings/inputmask.binding.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="CEEWAIby/yxh2FVRUFpkquPqJ/MOhptdPlzpa3t+G9PFSa4XYH8HKTxb4eRPdwdbP9ba8peg19pvnxcu1H/DJw==" />
+            <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
+              aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
+              <svg class="octicon octicon-pencil" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.013 1.427a1.75 1.75 0 012.474 0l1.086 1.086a1.75 1.75 0 010 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 01-.927-.928l.929-3.25a1.75 1.75 0 01.445-.758l8.61-8.61zm1.414 1.06a.25.25 0 00-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 000-.354l-1.086-1.086zM11.189 6.25L9.75 4.81l-6.286 6.287a.25.25 0 00-.064.108l-.558 1.953 1.953-.558a.249.249 0 00.108-.064l6.286-6.286z"></path></svg>
+            </button>
+</form>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/RobinHerbots/Inputmask/delete/5.x/dist/bindings/inputmask.binding.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="PedmdtB/xblw2aylD2xYiuN7iA9gz+AOSAZpI94sHZUILuRKro+SU+qFibXVEsvaL++f/FmYNjgrBRCMWKHrPg==" />
+            <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
+              aria-label="Fork this project and delete the file" data-disable-with>
+              <svg class="octicon octicon-trashcan" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.5 1.75a.25.25 0 01.25-.25h2.5a.25.25 0 01.25.25V3h-3V1.75zm4.5 0V3h2.25a.75.75 0 010 1.5H2.75a.75.75 0 010-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75zM4.496 6.675a.75.75 0 10-1.492.15l.66 6.6A1.75 1.75 0 005.405 15h5.19c.9 0 1.652-.681 1.741-1.576l.66-6.6a.75.75 0 00-1.492-.149l-.66 6.6a.25.25 0 01-.249.225h-5.19a.25.25 0 01-.249-.225l-.66-6.6z"></path></svg>
+            </button>
+</form>    </div>
+  </div>
 </div>
 
+      
+
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-javascript  gist-border-0">
+      
+<table class="highlight tab-size js-file-line-container" data-tab-size="8" data-paste-markdown-skip>
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class=pl-c>/*</span></td>
+      </tr>
+      <tr>
+        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class=pl-c> Input Mask plugin binding</span></td>
+      </tr>
+      <tr>
+        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class=pl-c> http://github.com/RobinHerbots/jquery.inputmask</span></td>
+      </tr>
+      <tr>
+        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class=pl-c> Copyright (c) Robin Herbots</span></td>
+      </tr>
+      <tr>
+        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class=pl-c> Licensed under the MIT license</span></td>
+      </tr>
+      <tr>
+        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class=pl-c> */</span></td>
+      </tr>
+      <tr>
+        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>(</span><span class=pl-k>function</span> <span class=pl-kos>(</span><span class=pl-s1>factory</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
+      </tr>
+      <tr>
+        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line">	<span class=pl-s1>factory</span><span class=pl-kos>(</span><span class=pl-s1>jQuery</span><span class=pl-kos>,</span> <span class=pl-smi>window</span><span class=pl-kos>.</span><span class=pl-c1>Inputmask</span><span class=pl-kos>,</span> <span class=pl-smi>window</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
+      </tr>
+      <tr>
+        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>}</span></td>
+      </tr>
+      <tr>
+        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>(</span><span class=pl-k>function</span> <span class=pl-kos>(</span><span class=pl-s1>$</span><span class=pl-kos>,</span> <span class=pl-v>Inputmask</span><span class=pl-kos>,</span> <span class=pl-s1>window</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
+      </tr>
+      <tr>
+        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line">	<span class=pl-s1>$</span><span class=pl-kos>(</span><span class=pl-s1>window</span><span class=pl-kos>.</span><span class=pl-c1>document</span><span class=pl-kos>)</span><span class=pl-kos>.</span><span class=pl-en>ajaxComplete</span><span class=pl-kos>(</span><span class=pl-k>function</span> <span class=pl-kos>(</span><span class=pl-s1>event</span><span class=pl-kos>,</span> <span class=pl-s1>xmlHttpRequest</span><span class=pl-kos>,</span> <span class=pl-s1>ajaxOptions</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
+      </tr>
+      <tr>
+        <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line">		<span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-s1>$</span><span class=pl-kos>.</span><span class=pl-en>inArray</span><span class=pl-kos>(</span><span class=pl-s>&quot;html&quot;</span><span class=pl-kos>,</span> <span class=pl-s1>ajaxOptions</span><span class=pl-kos>.</span><span class=pl-c1>dataTypes</span><span class=pl-kos>)</span> !== <span class=pl-c1>-</span><span class=pl-c1>1</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
+      </tr>
+      <tr>
+        <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">			<span class=pl-s1>$</span><span class=pl-kos>(</span><span class=pl-s>&quot;.inputmask, [data-inputmask], [data-inputmask-mask], [data-inputmask-alias], [data-inputmask-regex]&quot;</span><span class=pl-kos>)</span><span class=pl-kos>.</span><span class=pl-en>each</span><span class=pl-kos>(</span><span class=pl-k>function</span> <span class=pl-kos>(</span><span class=pl-s1>ndx</span><span class=pl-kos>,</span> <span class=pl-s1>lmnt</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
+      </tr>
+      <tr>
+        <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line">				<span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-s1>lmnt</span><span class=pl-kos>.</span><span class=pl-c1>inputmask</span> <span class=pl-c1>===</span> <span class=pl-c1>undefined</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
+      </tr>
+      <tr>
+        <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line">					<span class=pl-v>Inputmask</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>.</span><span class=pl-en>mask</span><span class=pl-kos>(</span><span class=pl-s1>lmnt</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
+      </tr>
+      <tr>
+        <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line">				<span class=pl-kos>}</span></td>
+      </tr>
+      <tr>
+        <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line">			<span class=pl-kos>}</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
+      </tr>
+      <tr>
+        <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">		<span class=pl-kos>}</span></td>
+      </tr>
+      <tr>
+        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">	<span class=pl-kos>}</span><span class=pl-kos>)</span><span class=pl-kos>.</span><span class=pl-en>ready</span><span class=pl-kos>(</span><span class=pl-k>function</span> <span class=pl-kos>(</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
+      </tr>
+      <tr>
+        <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line">		<span class=pl-s1>$</span><span class=pl-kos>(</span><span class=pl-s>&quot;.inputmask, [data-inputmask], [data-inputmask-mask], [data-inputmask-alias],[data-inputmask-regex]&quot;</span><span class=pl-kos>)</span><span class=pl-kos>.</span><span class=pl-en>each</span><span class=pl-kos>(</span><span class=pl-k>function</span> <span class=pl-kos>(</span><span class=pl-s1>ndx</span><span class=pl-kos>,</span> <span class=pl-s1>lmnt</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
+      </tr>
+      <tr>
+        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line">			<span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-s1>lmnt</span><span class=pl-kos>.</span><span class=pl-c1>inputmask</span> <span class=pl-c1>===</span> <span class=pl-c1>undefined</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
+      </tr>
+      <tr>
+        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line">				<span class=pl-v>Inputmask</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>.</span><span class=pl-en>mask</span><span class=pl-kos>(</span><span class=pl-s1>lmnt</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
+      </tr>
+      <tr>
+        <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">			<span class=pl-kos>}</span></td>
+      </tr>
+      <tr>
+        <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line">		<span class=pl-kos>}</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
+      </tr>
+      <tr>
+        <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line">	<span class=pl-kos>}</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
+      </tr>
+      <tr>
+        <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>}</span><span class=pl-kos>)</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
+      </tr>
+</table>
+
+  <details class="details-reset details-overlay BlobToolbar position-absolute js-file-line-actions dropdown d-none" aria-hidden="true">
+    <summary class="btn-octicon ml-0 px-2 p-0 color-bg-primary border color-border-tertiary rounded-1" aria-label="Inline file action toolbar">
+      <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path></svg>
+    </summary>
+    <details-menu>
+      <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2" style="width:185px">
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;">
+            Copy lines
+          </clipboard-copy>
+        </li>
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;">
+            Copy permalink
+          </clipboard-copy>
+        </li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/RobinHerbots/Inputmask/blame/b5356359bf373b4a272e73f6d2aa47f598442371/dist/bindings/inputmask.binding.js">View git blame</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/RobinHerbots/Inputmask/issues/new">Reference in new issue</a></li>
+      </ul>
+    </details-menu>
+  </details>
+
+  </div>
+
+    </div>
+
   
+
+  <details class="details-reset details-overlay details-overlay-dark" id="jumpto-line-details-dialog">
+    <summary data-hotkey="l" aria-label="Jump to line"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast linejump" aria-label="Jump to line">
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-jump-to-line-form Box-body d-flex" action="" accept-charset="UTF-8" method="get">
+        <input class="form-control flex-auto mr-3 linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
+        <button type="submit" class="btn" data-close-dialog>Go</button>
+</form>    </details-dialog>
+  </details>
+
+    <div class="Popover anim-scale-in js-tagsearch-popover"
+     hidden
+     data-tagsearch-url="/RobinHerbots/Inputmask/find-definition"
+     data-tagsearch-ref="5.x"
+     data-tagsearch-path="dist/bindings/inputmask.binding.js"
+     data-tagsearch-lang="JavaScript"
+     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:926231,&quot;ref&quot;:&quot;5.x&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;originating_url&quot;:&quot;https://github.com/RobinHerbots/Inputmask/blob/5.x/dist/bindings/inputmask.binding.js&quot;,&quot;user_id&quot;:58188995}}"
+     data-hydro-click-hmac="49d5580a3bd4e28c14b350fdf0fbea7d571f9b761e0a2496998d2972824dfe5d">
+  <div class="Popover-message Popover-message--large Popover-message--top-left TagsearchPopover mt-1 mb-4 mx-auto Box color-shadow-large">
+    <div class="TagsearchPopover-content js-tagsearch-popover-content overflow-auto" style="will-change:transform;">
+    </div>
+  </div>
+</div>
+
 
 </div>
 
@@ -1438,7 +1571,7 @@
     <span class="js-stale-session-flash-signed-out" hidden>You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
   </div>
     <template id="site-details-dialog">
-  <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark hx_rsm" open>
+  <details class="details-reset details-overlay details-overlay-dark lh-default color-text-primary hx_rsm" open>
     <summary role="button" aria-label="Close dialog"></summary>
     <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast hx_rsm-dialog hx_rsm-modal">
       <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
