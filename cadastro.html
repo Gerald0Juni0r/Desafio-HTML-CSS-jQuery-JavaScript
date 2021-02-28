@@ -84,6 +84,7 @@
                 }
             });
         });
+        
     </script> 
 </head>
 <body>
@@ -92,17 +93,17 @@
         <input type="tel"placeholder="CEP" id="cep"></input>
         <br>
 
-        <input type="text" placeholder="Rua" required id="rua">
-        <input type="tel" placeholder="Número" required id="numero">
+        <input type="text" placeholder="Rua" id="rua">
+        <input type="tel" placeholder="Número" id="numero">
         <br>
 
         <input type="text" placeholder="Complemento" id="complemento">
-        <input type="text" placeholder="Bairro" required id="bairro">
+        <input type="text" placeholder="Bairro" id="bairro">
         <br>
         
-        <input type="text" placeholder="Cidade" id="cidade" required id="cidade">
+        <input type="text" placeholder="Cidade" id="cidade" id="cidade">
         
-        <select name="uf" required id="uf">
+        <select name="uf" id="uf">
             <option disable value="">UF</option>
             <option value="AC">AC</option>
             <option value="AL">AL</option>
@@ -131,9 +132,10 @@
             <option value="SP">SP</option>
             <option value="SE">SE</option>
             <option value="TO">TO</option>
-        </select>
-        <div class="container">
-            <p>O(s) campo(s) <nome do campo> são obrigatórios.</p>
+        </select>  
+        
+        <div class="atencao">
+            <p>⚠️ O(s) campo(s) <nome do campo> são obrigatórios.</p>            
         </div>
         <br>
         <button id=concluir ><b>CONCLUIR</b></button>
