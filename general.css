@@ -28,6 +28,7 @@ button, select, input{
     font-family: 'Montserrat', sans-serif;
     font-size:x-small;
     border-radius: 8px;
+    outline: none;
 }    
 
 .atencao {
