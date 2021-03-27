@@ -17,71 +17,88 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./Inputmask/jquery.inputmask.min.js"></script>
 
-    <script>$(document).ready(function() { 
-        $("#cep").inputmask("99.999-999");
-        $("#cep").keyup(function(){})
-        $("#numero").inputmask("999999");
-        });
-    </script>
-    <script type="text/javascript" >
-
+    <script>
         $(document).ready(function() {
+            var camposVazios = []
+            $("#cep").inputmask("99.999-999");
+            $("#cep").keyup(function(){})
+            $("#numero").inputmask("9{1,5}");
+            $("#numero, #bairro, #cep, #rua, #cidade, select option:selected").blur(function() {
+                if((this.value == "" || this.value == undefined) && !camposVazios.includes(this.id)) {
+                    camposVazios.push(this.id)
+                } else {
+                    if(!(this.value == "" || this.value == undefined) && (camposVazios.includes(this.id))){
+                        index = camposVazios.indexOf(this.id)
+                        camposVazios.splice(index, 1)
+                    }
+                }
+                mostrar_campos_invalidos()
+            })
 
             function limpa_formulario_cep() {
+                console.log("limpando campo rua")
                 // Limpa valores do formulário de cep.
-                $("#rua").val("");
+                $("#rua").val(""); 
                 $("#bairro").val("");
                 $("#cidade").val("");
                 $("uf").val("");
+            }
+            function mostrar_campos_invalidos(){
+                $("#campos-vazios").text(camposVazios.join(", "))
+                $(".atencao").removeClass("hidden")
+
+                if (camposVazios.length == 0) {
+                    $(".atencao").addClass("hidden")
+                }
             }
             //Quando o campo cep perde o foco.
             $("#cep").blur(function() {
 
                 //Nova variável "cep" somente com dígitos.
                 var cep = $(this).val().replace(/\D/g, '');
+                    
+                //Expressão regular para validar o CEP.
+                var validacep = /^[0-9]{8}$/;
 
-                //Verifica se campo cep possui valor informado.
-                if (cep != "") {
+                //Valida o formato do CEP.
+                if(validacep.test(cep)) {
 
-                    //Expressão regular para validar o CEP.
-                    var validacep = /^[0-9]{8}$/;
+                    //Preenche os campos com "..." enquanto consulta webservice.
+                    $("#rua").val("...")
+                    $("#bairro").val("...")
+                    $("#cidade").val("...")
+                    $("#uf").val("...")
 
-                    //Valida o formato do CEP.
-                    if(validacep.test(cep)) {
+                    //Consulta o webservice viacep.com.br/
+                    $.getJSON("//viacep.com.br/ws/"+ cep +"/json/?callback=?", function(dados) {
 
-                        //Preenche os campos com "..." enquanto consulta webservice.
-                        $("#rua").val("...")
-                        $("#bairro").val("...")
-                        $("#cidade").val("...")
-                        $("#uf").val("...")
+                        if (!("erro" in dados)) {
+                            //Atualiza os campos com os valores da consulta.
+                            $("#rua").val(dados.logradouro);
+                            if(camposVazios.indexOf("rua") != -1) camposVazios.splice(camposVazios.indexOf("rua"),1)
 
-                        //Consulta o webservice viacep.com.br/
-                        $.getJSON("//viacep.com.br/ws/"+ cep +"/json/?callback=?", function(dados) {
+                            $("#bairro").val(dados.bairro);
+                            if(camposVazios.indexOf("bairro") != -1) camposVazios.splice(camposVazios.indexOf("bairro"),1)
 
-                            if (!("erro" in dados)) {
-                                //Atualiza os campos com os valores da consulta.
-                                $("#rua").val(dados.logradouro);
-                                $("#bairro").val(dados.bairro);
-                                $("#cidade").val(dados.localidade);
-                                $("#uf").val(dados.uf);
-                            } //end if.
-                            else {
-                                //CEP pesquisado não foi encontrado.
-                                limpa_formulario_cep();
-                                alert("CEP não encontrado.");
-                            }
-                        });
-                    } //end if.
-                    else {
-                        //cep é inválido.
-                        limpa_formulario_cep();
-                        alert("Formato de CEP inválido.");
-                    }
+                            $("#cidade").val(dados.localidade);
+                            if(camposVazios.indexOf("cidade") != -1) camposVazios.splice(camposVazios.indexOf("cidade"),1)
+
+                            $("#uf").val(dados.uf);
+                           
+                            mostrar_campos_invalidos()
+                        } //end if.
+                        else {
+                            //CEP pesquisado não foi encontrado.
+                            limpa_formulario_cep();
+                            alert("CEP não encontrado.");
+                        }
+                    });
                 } //end if.
                 else {
-                    //cep sem valor, limpa formulário.
-                    limpa_formulario_cep();
+                    //cep é inválido.
+                    alert("Formato de CEP inválido.");
                 }
+                    
             });
         });
         
@@ -89,53 +106,53 @@
 </head>
 <body>
     <div id="form" >
-        
-        <input type="tel"placeholder="CEP" id="cep"></input>
-        <br>
+        <div id="fields">
+            <input type="tel"placeholder="CEP" id="cep"></input>
+            <br>
 
-        <input type="text" placeholder="Rua" id="rua">
-        <input type="tel" placeholder="Número" id="numero">
-        <br>
+            <input type="text" placeholder="Rua" id="rua">
+            <input type="tel" placeholder="Número" id="numero">
+            <br>
 
-        <input type="text" placeholder="Complemento" id="complemento">
-        <input type="text" placeholder="Bairro" id="bairro">
-        <br>
-        
-        <input type="text" placeholder="Cidade" id="cidade" id="cidade">
-        
-        <select name="uf" id="uf">
-            <option disable value="">UF</option>
-            <option value="AC">AC</option>
-            <option value="AL">AL</option>
-            <option value="AP">AP</option>
-            <option value="AM">AM</option>
-            <option value="BA">BA</option>
-            <option value="CE">CE</option>
-            <option value="DF">DF</option>
-            <option value="ES">ES</option>
-            <option value="GO">GO</option>
-            <option value="MA">MA</option>
-            <option value="MT">MT</option>
-            <option value="MS">MS</option>
-            <option value="MG">MG</option>
-            <option value="PA">PA</option>
-            <option value="PB">PB</option>
-            <option value="PR">PR</option>
-            <option value="PE">PE</option>
-            <option value="PI">PI</option>
-            <option value="RJ">RJ</option>
-            <option value="RN">RN</option>
-            <option value="RS">RS</option>
-            <option value="RO">RO</option>
-            <option value="RR">RR</option>
-            <option value="SC">SC</option>
-            <option value="SP">SP</option>
-            <option value="SE">SE</option>
-            <option value="TO">TO</option>
-        </select>  
-        
-        <div class="atencao">
-            <p>⚠️ O(s) campo(s) <nome do campo> são obrigatórios.</p>            
+            <input type="text" placeholder="Complemento" id="complemento">
+            <input type="text" placeholder="Bairro" id="bairro">
+            <br>
+            
+            <input type="text" placeholder="Cidade" id="cidade" id="cidade">
+            
+            <select name="uf" id="uf">
+                <option disable value="">UF</option>
+                <option value="AC">AC</option>
+                <option value="AL">AL</option>
+                <option value="AP">AP</option>
+                <option value="AM">AM</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="DF">DF</option>
+                <option value="ES">ES</option>
+                <option value="GO">GO</option>
+                <option value="MA">MA</option>
+                <option value="MT">MT</option>
+                <option value="MS">MS</option>
+                <option value="MG">MG</option>
+                <option value="PA">PA</option>
+                <option value="PB">PB</option>
+                <option value="PR">PR</option>
+                <option value="PE">PE</option>
+                <option value="PI">PI</option>
+                <option value="RJ">RJ</option>
+                <option value="RN">RN</option>
+                <option value="RS">RS</option>
+                <option value="RO">RO</option>
+                <option value="RR">RR</option>
+                <option value="SC">SC</option>
+                <option value="SP">SP</option>
+                <option value="SE">SE</option>
+                <option value="TO">TO</option>
+            </select>  
+        </div>
+        <div class="atencao hidden">
+            <p>⚠️ O(s) campo(s) <span id="campos-vazios"></span> são obrigatórios.</p>            
         </div>
         <br>
         <button id=concluir ><b>CONCLUIR</b></button>

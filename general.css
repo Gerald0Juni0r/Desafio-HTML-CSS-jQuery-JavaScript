@@ -31,15 +31,31 @@ button, select, input{
     outline: none;
 }    
 
+#concluir {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#fields {
+    margin: 0px auto;
+    text-align: center;
+}
+
 .atencao {
     color: rgb(153, 32, 32);
     text-align: center;
+    max-width: 500px;
     
 }
 
 #form {
     margin: 150px auto 150px auto;
     width: fit-content;
+    text-align: center;
 }
 
 #cep{
